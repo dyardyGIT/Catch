@@ -1,11 +1,11 @@
-﻿//Based on http://www.html5rocks.com/en/tutorials/webdatabase/todo/
+//Based on http://www.html5rocks.com/en/tutorials/webdatabase/todo/
 
 
 
 var app = {};
 app.db = null;
 
-//document.addEventListener("deviceready", init, false);
+document.addEventListener("deviceready", init, false);
 
 
 app.openDb = function () {
@@ -91,4 +91,4 @@ function addTodo() {
 }
 
 
-init();
+//init();
