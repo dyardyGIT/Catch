@@ -58,14 +58,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="index_ori.html" />
+    
     <Content Include="Content\css\bootstrap-min.css" />
     <Content Include="Content\css\bootstrap-responsive.min.css" />
     <Content Include="Content\img\glyphicons-halflings-white.png" />    
     <Content Include="Content\img\glyphicons-halflings.png" />
     <Content Include="Content\js\bootstrap.min.js" />    
-    <Content Include="js\lib\jquery-1.8.2.min.js" />
+    <Content Include="js\lib\jquery-1.9.1.min.js" />
+    <Content Include="js\lib\knockout-2.2.1.js" />
     <Content Include="js\hello-world.js" />
+    <Content Include="js\main.js" />
     <Content Include="styles\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
